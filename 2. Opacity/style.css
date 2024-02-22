@@ -1,0 +1,16 @@
+/* Opacity untuk mengatur Transparansi */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ddd;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: salmon;
+    opacity: 0.8;
+}
