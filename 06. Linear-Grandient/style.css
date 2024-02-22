@@ -1,0 +1,7 @@
+div {
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background: linear-gradient(90deg, red, green);
+    /* background:linear-grandient(sudut/arah ,warna-1,warna-2, ... ,  warna-n) */
+}
