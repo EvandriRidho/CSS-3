@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+}
+
+img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+/* 
+webkit : untuk Safari dan Chrome,
+moz : untuk firefox,
+ms : untuk internet explore,
+0 : untuk opera
+*/
