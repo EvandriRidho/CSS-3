@@ -1,0 +1,27 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+}
+
+.box:hover {
+    animation: animasiKotak 3s ease infinite alternate forwards running;
+    /* animation: nama, waktu, pergerakan, count, direction, fill-mode, play-state */
+}
+
+@keyframes animasiKotak {
+    0% {
+        width: 200px;
+    }
+
+    50% {
+        width: 500px;
+        height: 200px;
+    }
+
+    100% {
+        width: 500px;
+        height: 500px;
+    }
+}
+/* Jika ingin menggunakan animasi buat dlu keyframes */
