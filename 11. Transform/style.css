@@ -1,0 +1,20 @@
+body {
+    background-color: #ddd;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 50px auto;
+    transition: 1s;
+}
+
+.box:hover {
+    /* transform: scale(1.5, 2); */
+    /* transform: rotate(45deg); */
+    /* transform: skew(30deg); */
+    transform: translate(100px,100px);
+}
